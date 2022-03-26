@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* by default */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  color: rgb(184, 184, 184);
+}
+
+/* Header */
+
+header {
+  padding: 10px 0;
+  background-color: rgb(51, 51, 51);
+}
+
+header .head {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header .btn {
+  background-color: rgb(51, 51, 51);
+  border: none;
+  margin-left: 20px;
+}
+
+header .btn:hover {
+  cursor: pointer;
+}
+
+header .line {
+  width: 15px;
+  height: 1px;
+  background-color: rgb(184, 184, 184);
+  margin-bottom: 3px;
+}
+
+/* .color{
+    fill: white;
+} */
+
+.nav {
+  width: 100%;
+  border-bottom: 1px rgba(51, 51, 51, 0.7) solid;
+  border-top: 1px rgba(51, 51, 51, 0.7) solid;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 14px 0px;
+  background-color: rgba(255, 255, 255, 0.99);
+}
+
+.navbar h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgba(000, 000, 000, 0.7);
+}
+
+.navbar a {
+  color: rgba(000, 000, 000, 0.7);
+  margin: 0 14px;
+}
+
+.navbar button {
+  width: 44px;
+  height: 24px;
+  border: none;
+  border-radius: 40px;
+  background-color: #0071e3;
+  color: #fff;
+  font-size: 12px;
+}
+
+.wraper {
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.wraper h4 {
+  font-size: 21px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(000, 000, 000);
+}
+
+.wraper h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(000, 000, 000);
+  padding: 30px 0;
+}
+
+.wraper p {
+  font-size: 21px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  width: 48%;
+  padding-bottom: 30px;
+}
+
+.wraper span {
+  font-size: 21px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(184, 184, 184);
+}
+
+.wraper .buy {
+  border: none;
+  width: 75px;
+  height: 45px;
+  border-radius: 40px;
+  background-color: #0071e3;
+  align-items: center;
+}
+
+.wraper .buy:hover {
+  cursor: pointer;
+  background-color: #2586e7;
+  transition: ease;
+}
+
+.wraper .buy a {
+  font-size: 17px;
+  color: #fff;
+}
+
+.wraper img {
+  width: 80%;
+  height: 100%;
+  padding: 50px 0;
+}
+
+#img {
+  transition: 1s ease;
+}
+
+.wraper .btns button {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: none;
+  margin-right: 15px;
+}
+
+.wraper .btns button:hover {
+  cursor: pointer;
+  border: rgb(45, 138, 232) 4px solid;
+}
+
+.wraper .btns span {
+  font-size: 12px;
+  transition: 1s ease;
+}
+
+.btns button:nth-child(1) {
+  background-color: rgb(167, 193, 217);
+}
+
+.wraper .btns button:nth-child(3) {
+  background-color: rgb(241, 242, 237);
+}
+
+.wraper .btns button:nth-child(5) {
+  background-color: #fae7cf;
+}
+
+.wraper .btns button:nth-child(7) {
+  background-color: rgb(84, 82, 79);
+}
+
+.faq {
+  background-color: white;
+  color: white;
+}
+
+.faq h2 {
+  padding: 20px;
+  font-size: 26px;
+  color: black;
+  text-align: center;
+}
+
+.faq .questions {
+  background-color: #000;
+  justify-content: space-between;
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+}
+
+.faq .questions p {
+  padding: 20px;
+  letter-spacing: 5px;
+  width: 70%;
+}
+
+.faq .questions button {
+  margin: 20px;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #000;
+  color: #fae7cf;
+}
+
+.faq .questions button:hover {
+  cursor: pointer;
+}
+
+.modal-bg {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: -100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(15px);
+  opacity: 0;
+  display: block;
+}
+.modal {
+  width: 25%;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  justify-content: space-around;
+  flex-direction: column;
+  border: 30px solid rgba(111, 111, 111, 0.1);
+  box-shadow: 30px -30px 5px gray;
+  border-radius: 20px;
+
+  position: fixed;
+  right: -100%;
+  top: 5%;
+  transition: 0.5s ease;
+}
+
+.modal button {
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 30px;
+  border: 2px dashed black;
+  transition: 0.5s ease;
+}
+
+.modal button:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.modal .close {
+  background: none;
+  border: none;
+}
+.modal .close img {
+  width: 40px;
+  height: 40px;
+}

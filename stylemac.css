@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* by default */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  a {
+    font-size: 14px;
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+ header img {
+    width: 20px;
+    height: 20px;
+    color: rgb(184, 184, 184);
+  }
+  
+  /* Header */
+  
+  header {
+    padding: 10px 0;
+    background-color: rgb(51, 51, 51);
+  }
+  
+  header .head {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  header .btn {
+    background-color: rgb(51, 51, 51);
+    border: none;
+    margin-left: 20px;
+  }
+  
+  header .btn:hover {
+    cursor: pointer;
+  }
+  
+  header .line {
+    width: 15px;
+    height: 1px;
+    background-color: rgb(184, 184, 184);
+    margin-bottom: 3px;
+  }
+  
+
+.header {
+    margin: 0 auto;
+    width: 500px;
+    padding: 25px;
+    text-align: center;
+}
+
+p {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    
+}
+.middle{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px ;
+}
+.middle .gr {
+    width: 300px;
+}
+.middle .wh {
+    width: 0;
+}
+
+.middle .img {
+    display: inline-block;
+}
+
+img {
+    transition: .5s ease;
+
+}
+
+.middle .right {
+display: inline-block;
+margin-top: 40px;
+margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.right .bottom {
+    margin-top: 100px;
+}
+
+.btns {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btns .white {
+    
+    color: white;
+    background: rgba(0, 113, 227, 1);
+    border: none;
+    border-radius: 10px;
+    width: 155px;
+    height: 42px;
+    transition: 1s ease;
+
+}
+.btns .grey {
+    
+    width: 155px;
+    height: 42px;
+    background: #CFE7FF;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    transition: 1s ease;
+}
+
+.ssd {
+    
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+
+
+}
+
+.bottom {
+    transition: 1s ease;
+
+}
+
+.block {
+    display: block;
+    width: 321px;
+    height: 57px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 2px solid #CFE7FF;
+    border-color: rgba(207, 231, 255, 1);
+    background-color: white;
+    transition: .5s ease;
+}
